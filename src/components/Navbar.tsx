@@ -29,8 +29,7 @@ export default function Navbar() {
     <>
       <header className="fixed top-0 w-full z-50 flex flex-col">
         <div className="bg-[#1a1a1a] text-white py-2.5 px-4 text-center text-[15px] leading-relaxed w-full">
-          Text <span className="font-bold">BUGS</span> to <a href="sms:+14793644588" className="font-bold hover:text-gray-300 transition-colors">(479) 364-4588</a> or give us a call now to{" "}
-          <span className="block sm:inline">book your service in <span className="font-bold">60 seconds</span></span>
+          Text <span className="font-bold">BUGS</span> to <a href="sms:+14793644588" className="font-bold hover:text-gray-300 transition-colors">(479) 364-4588</a> or give us a call now to book your service in <span className="font-bold">60 seconds</span>
         </div>
         <nav
           className={`w-full transition-all duration-300 ${scrolled ? "bg-background shadow-sm" : "bg-transparent md:bg-background md:border-b md:border-[var(--brand-red)]/5"} py-3 md:py-5`}
